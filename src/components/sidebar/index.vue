@@ -12,7 +12,7 @@
     <TagSrcTab />
 
     <TagSrcTabSelf v-show="tagStore.tagSrc === 'star'" />
-    <TagSrcGithub v-show="tagStore.tagSrc === 'ranking'" />
+    <!-- <TagSrcGithub v-show="tagStore.tagSrc === 'ranking'" /> -->
 
     <footer
       class="brand-text h-8 flex-none border-t border-solid border-white/10 text-sm font-bold"

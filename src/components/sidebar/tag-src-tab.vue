@@ -3,7 +3,7 @@
     class="broder-solid flex h-8 flex-none justify-between border-t border-gray-600 text-xs"
   >
     <li
-      v-for="tab in ['star', 'ranking']"
+      v-for="tab in ['star']"
       :key="tab"
       :class="{
         selected: tab === tagStore.tagSrc,
